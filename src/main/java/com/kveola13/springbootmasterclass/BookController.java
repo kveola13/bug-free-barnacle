@@ -12,6 +12,7 @@ public class BookController {
     public List<Book> getAllBooks() {
         return Arrays.asList(
                 new Book(1, "The Lord of the Rings", "J.R.R Tolkien"),
-                new Book(2, "The Lord of Chaos", "Robert Jordan"));
+                new Book(2, "The Lord of Chaos", "Robert Jordan"),
+                new Book(3, "A Memory of Light", "Brandon Sanderson"));
     }
 }
